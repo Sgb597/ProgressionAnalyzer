@@ -17,9 +17,6 @@ export class AppComponent {
 
   constructor(private viewRef: ViewContainerRef) {}
   onAddDropdown() {
-    const dropdownComp = this.viewRef.createComponent(
-      this.component<DropdownComponent>
-    );
     console.log('executing button');
   }
 }
