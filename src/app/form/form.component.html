@@ -1,0 +1,74 @@
+<mat-card>
+  <form [formGroup]="form" (submit)="onFindMyKey()">
+    <mat-form-field>
+      <mat-label>Select a chord</mat-label>
+      <mat-select formControlName="chord1">
+        <mat-option *ngFor="let chord of dropdownChords" [value]="chord">
+          {{ chord }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Select a chord</mat-label>
+      <mat-select formControlName="chord2">
+        <mat-option *ngFor="let chord of dropdownChords" [value]="chord">
+          {{ chord }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Select a chord</mat-label>
+      <mat-select formControlName="chord3">
+        <mat-option *ngFor="let chord of dropdownChords" [value]="chord">
+          {{ chord }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Select a chord</mat-label>
+      <mat-select formControlName="chord4">
+        <mat-option *ngFor="let chord of dropdownChords" [value]="chord">
+          {{ chord }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Select a chord</mat-label>
+      <mat-select formControlName="chord5">
+        <mat-option *ngFor="let chord of dropdownChords" [value]="chord">
+          {{ chord }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Select a chord</mat-label>
+      <mat-select formControlName="chord6">
+        <mat-option *ngFor="let chord of dropdownChords" [value]="chord">
+          {{ chord }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Select a chord</mat-label>
+      <mat-select formControlName="chord7">
+        <mat-option *ngFor="let chord of dropdownChords" [value]="chord">
+          {{ chord }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit">Find my key</button>
+  </form>
+  <div *ngIf="hasResults">
+    <br />
+    <ng-container *ngFor="let keyArray of keys">
+      <mat-expansion-panel>
+        <mat-expansion-panel-header style="font-weight: bold">
+          {{ keyArray[0] }}
+        </mat-expansion-panel-header>
+        <li *ngFor="let chord of keyArray; index as i">
+          {{ chord }}
+        </li></mat-expansion-panel
+      >
+    </ng-container>
+  </div>
+</mat-card>

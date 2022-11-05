@@ -1,0 +1,321 @@
+﻿[
+    {
+        "C major": [
+            "C major",
+            "D minor",
+            "E minor",
+            "F major",
+            "G major",
+            "A minor",
+            "B diminished"
+        ]
+    },
+    {
+        "C minor": [
+            "C minor",
+            "D diminished",
+            "Eb major",
+            "F minor",
+            "G minor",
+            "Ab major",
+            "Bb major"
+        ]
+    },
+    {
+        "C# major": [
+            "C# major",
+            "D# major",
+            "E# minor",
+            "F# major",
+            "G# major",
+            "A# minor",
+            "B# diminished"
+        ]
+    },
+    {
+        "C# minor": [
+            "C# minor",
+            "D# diminished",
+            "E major",
+            "F# minor",
+            "G# minor",
+            "A major",
+            "B major"
+        ]
+    },
+    {
+        "Db major": [
+            "Db major",
+            "Eb minor",
+            "F minor",
+            "Gb major",
+            "Ab major",
+            "Bb minor",
+            "C diminished"
+        ]
+    },
+    {
+        "D major": [
+            "D major",
+            "E minor",
+            "F# minor",
+            "G major",
+            "A major",
+            "B minor",
+            "C# diminished"
+        ]
+    },
+    {
+        "D minor": [
+            "D minor",
+            "E diminished",
+            "F major",
+            "G minor",
+            "A minor",
+            "Bb major",
+            "C major"
+        ]
+    },
+    {
+        "D# minor": [
+            "D# minor",
+            "E# diminished",
+            "F# major",
+            "G# minor",
+            "A# minor",
+            "B major",
+            "C# major"
+        ]
+    },
+    {
+        "Eb major": [
+            "Eb major",
+            "F minor",
+            "G minor",
+            "Ab major",
+            "Bb major",
+            "C minor",
+            "D diminished"
+        ]
+    },
+    {
+        "Eb minor": [
+            "Eb minor",
+            "F diminished",
+            "Gb major",
+            "Ab minor",
+            "Bb minor",
+            "Cb major",
+            "Db major"
+        ]
+    },
+    {
+        "E major": [
+            "E major",
+            "F# minor",
+            "G# minor",
+            "A major",
+            "B major",
+            "C# minor",
+            "D# diminished"
+        ]
+    },
+    {
+        "E minor": [
+            "E minor",
+            "F# diminished",
+            "G major",
+            "A minor",
+            "B minor",
+            "C major",
+            "D major"
+        ]
+    },
+    {
+        "F major": [
+            "F major",
+            "G minor",
+            "A minor",
+            "Bb major",
+            "C major",
+            "D minor",
+            "E diminished"
+        ]
+    },
+    {
+        "F minor": [
+            "F minor",
+            "G diminished",
+            "Ab major",
+            "Bb minor",
+            "C minor",
+            "Db major",
+            "Eb major"
+        ]
+    },
+    {
+        "F# major": [
+            "F# major",
+            "G# minor",
+            "A# minor",
+            "B major",
+            "C# major",
+            "D# minor",
+            "E# diminished"
+        ]
+    },
+    {
+        "F# minor": [
+            "F# minor",
+            "G# diminished",
+            "A major",
+            "B minor",
+            "C# minor",
+            "D major",
+            "E major"
+        ]
+    },
+    {
+        "Gb major": [
+            "Gb major",
+            "Ab minor",
+            "Bb minor",
+            "Cb major",
+            "Db major",
+            "Eb minor",
+            "F diminished"
+        ]
+    },
+    {
+        "G major": [
+            "G major",
+            "A minor",
+            "B minor",
+            "C major",
+            "D major",
+            "E minor",
+            "F# diminished"
+        ]
+    },
+    {
+        "G minor": [
+            "G minor",
+            "A diminished",
+            "Bb major",
+            "C minor",
+            "D minor",
+            "Eb major",
+            "F major"
+        ]
+    },
+    {
+        "G# minor": [
+            "G# minor",
+            "A# diminished",
+            "B major",
+            "C# minor",
+            "D# minor",
+            "E major",
+            "F# major"
+        ]
+    },
+    {
+        "Ab major": [
+            "Ab major",
+            "Bb minor",
+            "C minor",
+            "Db major",
+            "Eb major",
+            "F minor",
+            "G diminished"
+        ]
+    },
+    {
+        "Ab minor": [
+            "Ab minor",
+            "Bb diminished",
+            "Cb major",
+            "Db minor",
+            "Eb minor",
+            "Fb major",
+            "Gb major"
+        ]
+    },
+    {
+        "A major": [
+            "A major",
+            "B minor",
+            "C# minor",
+            "D major",
+            "E major",
+            "F# minor",
+            "G# diminished"
+        ]
+    },
+    {
+        "A minor": [
+            "A minor",
+            "B diminished",
+            "C major",
+            "D minor",
+            "E minor",
+            "F major",
+            "G major"
+        ]
+    },
+    {
+        "A# minor": [
+            "A# minor",
+            "B# major",
+            "C# minor",
+            "D# minor",
+            "E# minor",
+            "F# major",
+            "G# major"
+        ]
+    },
+    {
+        "Bb major": [
+            "Bb major",
+            "C minor",
+            "D minor",
+            "Eb major",
+            "F major",
+            "G minor",
+            "A diminished"
+        ]
+    },
+    {
+        "Bb minor": [
+            "Bb minor",
+            "C diminished",
+            "Db major",
+            "Eb minor",
+            "F minor",
+            "Gb major",
+            "Ab major"
+        ]
+    },
+    {
+        "B major": [
+            "B major",
+            "C# minor",
+            "D# minor",
+            "E major",
+            "F# major",
+            "G# minor",
+            "A# diminished"
+        ]
+    },
+    {
+        "B minor": [
+            "B minor",
+            "C# diminished",
+            "D major",
+            "E minor",
+            "F# minor",
+            "G major",
+            "A major"
+        ]
+    }
+]
