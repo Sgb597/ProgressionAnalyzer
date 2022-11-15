@@ -14,10 +14,10 @@ import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatButtonModule } from '@angular/material/button';
-import { DropdownComponent } from './dropdown/dropdown.component';
+import { GenreComponent } from './genre/genre.component';
 
 @NgModule({
-  declarations: [AppComponent, FormComponent, HeaderComponent, DropdownComponent],
+  declarations: [AppComponent, FormComponent, HeaderComponent, GenreComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
