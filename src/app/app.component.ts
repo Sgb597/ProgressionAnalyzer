@@ -1,8 +1,5 @@
 import {
-  Component,
-  TemplateRef,
-  ViewChild,
-  ViewContainerRef,
+  Component
 } from '@angular/core';
 
 @Component({
@@ -12,6 +9,10 @@ import {
 })
 export class AppComponent {
   title = 'Progression Analyzer';
+  resultKeys: string [] = [];
 
+  bongoAlarm(keys) {
+    this.resultKeys = keys;
+  }
   constructor() {}
 }

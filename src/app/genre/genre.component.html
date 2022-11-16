@@ -1,1 +1,25 @@
-<p>genre works!</p>
+<div>
+  <mat-card>
+    <h1>Genre Based Chord Progressions</h1>
+    <mat-form-field>
+      <mat-label>Select a Genre</mat-label>
+      <mat-select>
+        <mat-option (onSelectionChange)="onGenreSelected($event)" *ngFor="let genre of genres" [value]="genre">
+          {{ genre }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <div *ngIf="adjustToGenre">
+      <ng-container *ngFor="let progression of genreAdjustedProgression">
+        <mat-expansion-panel>
+          <mat-expansion-panel-header style="font-weight: bold">
+            {{ progression[0] }}
+          </mat-expansion-panel-header>
+          <li *ngFor="let chord of progression; index as i">
+            {{ chord }}
+          </li>
+        </mat-expansion-panel>
+      </ng-container>
+    </div>
+  </mat-card>
+</div>

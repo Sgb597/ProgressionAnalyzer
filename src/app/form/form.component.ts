@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
 import { FormService } from './form.service';
 
 @Component({
@@ -11,6 +11,7 @@ export class FormComponent implements OnInit {
   dropdownChords: string[] = [];
   form: FormGroup;
   input: string[] = [];
+  @Output() onChordsSelected = new EventEmitter<string []>();
   keys: string[] = [];
   hasResults = false;
 
@@ -39,13 +40,14 @@ export class FormComponent implements OnInit {
       }
     }
 
-    const chordCollection = {
-      chords: this.input,
-    };
-    console.log(this.input);
+    // const chordCollection = { chords: this.input };
+    const chordCollection = { chords: ['C major', 'F major','G major'] };
     this.formService.getKeys(chordCollection).subscribe((results) => {
       for (let key in results.keys) {
         this.keys.push(results.keys[key]);
+      }
+      if (this.keys !== null) {
+        this.onChordsSelected.emit(this.keys);
       }
     });
     this.hasResults = true;
